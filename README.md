@@ -67,9 +67,7 @@ pm2 start java --name McDash.app -- -jar target/mcdash-standalone-1.0.jar
 ```
 
 ## 🔒 Security Notice
-The dashboard is protected by a mandatory login. The default credentials are:
-- **User:** `rufuls`
-- **Pass:** `C001D2061371E`
+The dashboard is protected by a mandatory login.
 *It is highly recommended to change these in `config.properties` before public deployment.*
 
 ---
