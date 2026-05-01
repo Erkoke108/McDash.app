@@ -3,20 +3,25 @@
 
 McDash.app is a professional, high-performance administrative dashboard for Minecraft servers. Unlike traditional plugins or mods, McDash.app runs as a **standalone** service, communicating with your server via RCON and real-time log analysis.
 
-![Dashboard Preview](https://raw.githubusercontent.com/Erkoke108/McDash.app/main/preview.png)
+## 📸 Preview & Gallery
 
-## 🌟 Why McDash.app?
+McDash.app features a stunning, modern interface designed for clarity and efficiency.
 
-Most dashboard solutions are implemented as Minecraft plugins (Bukkit/Spigot) or mods (Forge/Fabric). This has several drawbacks:
-- **Dependency:** If the server crashes, the dashboard goes down.
-- **Performance:** They consume valuable server ticks (TPS), causing lag.
-- **Incompatibility:** You need different versions for different modpacks.
+<p align="center">
+  <img src="img/console.png" width="45%" alt="Console View" />
+  <img src="img/players.png" width="45%" alt="Players Management" />
+</p>
+<p align="center">
+  <img src="img/files.png" width="30%" alt="File Manager" />
+  <img src="img/worlds.png" width="30%" alt="World Settings" />
+  <img src="img/plugins.png" width="30%" alt="Plugin Control" />
+</p>
 
-**McDash.app solves this by being Standalone:**
-- ✅ **Zero TPS Impact:** Does not run inside the Minecraft JVM loop.
-- ✅ **Universal Compatibility:** Works with Vanilla, Forge, NeoForge, Fabric, Quilt, BungeeCord, and Velocity.
-- ✅ **Resilience:** Monitor your server even when it's starting, stopping, or crashing.
-- ✅ **Real-time:** Uses WebSockets for a lag-free live console.
+## 📱 Mobile Ready
+The entire dashboard is built with a **Mobile-First** philosophy.
+- 🚀 **Fully Responsive:** Every table, chart, and terminal adapts perfectly to smartphones and tablets.
+- 📲 **On-the-go Management:** Ban players, check performance, or run console commands directly from your mobile browser while you are away from your PC.
+- ⚡ **Optimized Performance:** Lightweight assets ensure a smooth experience even on mobile data.
 
 ## ✨ Key Features
 
